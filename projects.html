@@ -28,10 +28,17 @@
       <p>Provisioned virtual machines on Azure using Terraform and Git Bash, automating the infrastructure setup across multiple environments.</p>
     </section>
 
-    <section>
-      <h3>Azure Backup Log Automation</h3>
-      <p>Developed Python scripts using Azure APIs and Key Vault to log daily Azure Site Recovery backup statuses into Excel sheets for multiple clients.</p>
-    </section>
+   <section>
+  <h3>Azure Backup Log Automation</h3>
+  <p>This project automates the daily logging of Azure Recovery Services backup jobs for multiple clients. It uses Python, Azure SDKs, Key Vault authentication, and Excel automation with `openpyxl`. It also supports Disaster Recovery status reporting.</p>
+  <ul>
+    <li>Reads client and vault info from a JSON config</li>
+    <li>Fetches secrets securely from Azure Key Vault</li>
+    <li>Retrieves backup and replication status using Azure SDKs</li>
+    <li>Writes results to client-specific Excel sheets</li>
+  </ul>
+  <a href="https://github.com/sapnak23/azure-backup-log-automation" target="_blank">View Project on GitHub</a>
+   </section>
 
     <section>
       <h3>Upcoming: MSc Lab Projects (2025–2026)</h3>
